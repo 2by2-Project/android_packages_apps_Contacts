@@ -67,12 +67,13 @@
     <application
         android:name="com.android.contacts.ContactsApplication"
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_square"
         android:label="@string/applicationLabel"
         android:appCategory="social"
         android:supportsRtl="true"
         android:taskAffinity="android.task.contacts"
-        android:usesCleartextTraffic="false">
+        android:usesCleartextTraffic="false"
+        android:roundIcon="@mipmap/ic_launcher">
         <!-- The main Contacts activity with the contact list, favorites, and groups. -->
         <activity
             android:name=".activities.PeopleActivity"
